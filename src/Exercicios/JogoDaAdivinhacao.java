@@ -11,9 +11,9 @@ public class JogoDaAdivinhacao {
         Random random = new Random();              // CRIA UM OBJETO RANDOM
 
         int numeroAleatorio = random.nextInt(101); // GERA UM NUMERO ALEATORIO ENTRE 0 E 100
-        int tentativasRestantes = 8;
+        int tentativasRestantes = 5;
 
-        System.out.println("Bem-vindo ao Jogo da Adivinhação! Tente adivinhar um número entre 0 e 100.");
+        System.out.println("Bem-vindo ao Jogo da Adivinhação! \n Tente adivinhar um número entre 0 e 100.");
 
         while (tentativasRestantes > 0) {
             System.out.println("Tentativas restantes: " + tentativasRestantes);

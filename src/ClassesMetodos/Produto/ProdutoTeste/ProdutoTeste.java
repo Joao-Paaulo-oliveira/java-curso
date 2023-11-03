@@ -3,12 +3,12 @@ package ClassesMetodos.Produto.ProdutoTeste;
 
 public class ProdutoTeste {
     public static void main(String[] args) {
-        Produto p1 = new Produto();
-        p1.nome = "Computador";
-        p1.preco = 2000.00;
-        p1.desconto = 0.30;
+        Produto p1;            //CONSTUTOR
+        p1 = new Produto ("Computador,", 2000.00,
+                0.30);
 
-        Produto p2 = new Produto();
+
+        Produto p2 = new Produto();  //CONSTRUTOR PADRÃO
         p2.nome = "Xbox";
         p2.preco = 1500.00;
         p2.desconto = 0.20;
